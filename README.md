@@ -8,15 +8,19 @@
 
 Java solution for Insight Data Engineering Fellowship program - Jan 2017 session.
 
+
 Implementation tools:
 - Java 7
 - Eclipse MARS.2
 
+
 External Libraries:
 - None
 
+
 Added Features:
 - None
+
 
 Solution:
 - Feature 1: two users are friends when they are in the adjacency list of each another.
@@ -25,8 +29,10 @@ Solution:
 
 - Feature 3: after checking for the first two features, I used BFS to search the graph for a path between the two users with the constraint 'Go no deeper than level 4'
 
+
 Clean code:
 - Using 'Google Java Style Guide' at https://google.github.io/styleguide/javaguide.html 
+
 
 Data structures, Time, & Space:
 - Adjacency list vs Adjacency matrix: Implemented using adjacency list as the social graph is very sparse
