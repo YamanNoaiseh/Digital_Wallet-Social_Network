@@ -14,15 +14,15 @@ Java solution for Insight Data Engineering Fellowship program - Jan 2017 session
 - Eclipse MARS.2
 
 
-External Libraries:
+**External Libraries:**
 - None
 
 
-Added Features:
+**Added Features:**
 - None
 
 
-Solution:
+**Solution:**
 - Feature 1: two users are friends when they are in the adjacency list of each another.
 
 - Feature 2: two users are friends or second-level friends if they are friends (feature 1) or they have at least one mutual friend. In other words, the intersection of their adjacency list is non-empty.
@@ -30,11 +30,11 @@ Solution:
 - Feature 3: after checking for the first two features, I used BFS to search the graph for a path between the two users with the constraint 'Go no deeper than level 4'
 
 
-Clean code:
+**Clean code:**
 - Using 'Google Java Style Guide' at https://google.github.io/styleguide/javaguide.html 
 
 
-Data structures, Time, & Space:
+**Data structures, Time, & Space:**
 - Adjacency list vs Adjacency matrix: Implemented using adjacency list as the social graph is very sparse
 - An adjacency list saves the memory overhead associated with the implementation using the adjacency matrix, but stores each edge twice (one at each vertix).
 - Optimization: users were represented using the 'Integer' class rather than String to save memory.
