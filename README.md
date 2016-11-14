@@ -31,7 +31,7 @@ Java solution for Insight Data Engineering Fellowship program - Jan 2017 session
 
 
 **Clean code:**
-- Using 'Google Java Style Guide' at https://google.github.io/styleguide/javaguide.html 
+- Using [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html) 
 
 
 **Data structures, Time, & Space:**
