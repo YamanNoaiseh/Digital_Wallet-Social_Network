@@ -147,7 +147,7 @@ class Graph {
 	 * Creates a new Graph object
 	 */
 	public Graph() {
-		graph = new HashMap<Integer, Set<Integer>>();
+		graph = new HashMap<Integer, Set<Integer>>(100, 0.75F);
 	}
 	
 	/**
