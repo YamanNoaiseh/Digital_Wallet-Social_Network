@@ -212,11 +212,10 @@ class Graph {
 		// already in the graph as this method is called only after the check
 		// has been performed by the method 'processInput' before calling isConnection(id1, id2).
 		// Otherwise, the following if statement would wrap the code below
+		
 		// if (graph.containsKey(id1) && graph.containsKey(id2))
-		if (graph.get(id1).contains(id2)) {
-			return true;
-		}
-		return false;
+		
+		return graph.get(id1).contains(id2);
 	}
 	
 	/**
