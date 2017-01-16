@@ -6,8 +6,6 @@
 >
 > ====================================================================================================================
 
-Java solution for Insight Data Engineering Fellowship program - Jan 2017 session.
-
 
 **Implementation tools:**
 - Java 7
