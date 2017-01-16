@@ -16,10 +16,6 @@
 - None
 
 
-**Added Features:**
-- None
-
-
 **Solution:**
 - Feature 1: two users are friends when they are in the adjacency list of each another.
 
